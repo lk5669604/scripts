@@ -822,11 +822,11 @@
         },
 	{
             "id":"synckey",
-            "name":"同步CK",
+            "name":"同步cookies到v2p",
             "keys": ["v2purl", "v2token"],
             "settings": [{
         	"id": "v2pcookieupdate",
-        	"name": "V2P上传任务",
+        	"name": "同步开关",
         	"val": false,
         	"type": "boolean",
         	"desc": "打开才会上传cookie,用来刚开始使用的时候。"
@@ -850,7 +850,7 @@
                 "https://github.com/bluesmallpig/scripts/blob/main/img/sync-mini.png?raw=true",
                 "https://github.com/bluesmallpig/scripts/blob/main/img/sync.png?raw=true"
             ],
-            "script":"https://github.com/"
+            "script":"https://raw.githubusercontent.com/bluesmallpig/scripts/main/sync_key.js"
         }  
     ]
 }
