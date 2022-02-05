@@ -819,6 +819,38 @@
                 "https://github.com/bluesmallpig/scripts/blob/main/img/sjb.png?raw=true"
             ],
             "script":"https://github.com/"
-        }
+        },
+	{.  
+    	    "id": "synckey",
+            "name": "同步CK",
+    	    "keys": ["v2purl", "v2token"],
+            "settings": [{
+        	"id": "v2pcookieupdate",
+        	"name": "V2P上传任务",
+        	"val": false,
+        	"type": "boolean",
+        	"desc": "打开才会上传cookie,用来刚开始使用的时候。"
+      	     }, {
+        	"id": "v2purl",
+       	 	"name": "主页地址",
+        	"val": "",
+        	"type": "text",
+       	 	"desc": "请到设置查询,例子:http://192.168.1.102:12521"
+      	     },
+      	     {
+        	"id": "v2token",
+       	 	"name": "WEBHOOK TOKEN",
+        	"val": "",
+        	"type": "text",
+        	"desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
+      	     }],
+    	    "author": "@cenbomin",
+            "repo":"https://github.com/bluesmallpig/scripts",
+            "icons":[
+        	"https://github.com/bluesmallpig/scripts/blob/main/img/sync-mini.png?raw=true",
+        	"https://github.com/bluesmallpig/scripts/blob/main/img/sync.png?raw=true"
+    	    ],
+    	    "script":"https://github.com/"
+	}.  
     ]
 }
